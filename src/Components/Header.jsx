@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <NavLink
-                  to="/home"
+                  to="/"
                   className={({ isActive }) =>
                     isActive
                       ? "bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -42,7 +42,7 @@ const Navbar = () => {
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
                   >
-                    Services
+                    Menu
                   </button>
                   {isDropdownOpen && (
                     <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1">

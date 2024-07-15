@@ -1,11 +1,5 @@
-import React from "react";
-import Footer from './Components/Footer';
-
-
-const experience = () => {
+const Experience = () => {
   return <div>experience</div>;
 };
 
-export default experience;
-=======
-
+export default Experience;

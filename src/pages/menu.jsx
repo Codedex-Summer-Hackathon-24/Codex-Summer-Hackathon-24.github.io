@@ -1,11 +1,5 @@
-import React from "react";
-import Footer from './Components/Footer';
-
-
-const menu = () => {
+const Menu = () => {
   return <div>menu</div>;
 };
 
-export default menu;
-======
-
+export default Menu;
